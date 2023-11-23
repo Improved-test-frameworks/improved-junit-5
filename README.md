@@ -7,8 +7,8 @@ This project contains a test framework that improves on JUnit 5's default functi
 ### Mocking
 
 - The framework must be able to automatically mock away everything in the system under test.
-- Variables in the class to be tested can be excluded or included to the automatic mocking.
-- The automatic mocking must also work for static variables and classes.
+- Variables in the class to be tested can be excluded or included to the automatic mocking using annotations or the super() call.
+- The automatic mocking must also work for static variables, methods and classes.
 
 ### Auto print
 
