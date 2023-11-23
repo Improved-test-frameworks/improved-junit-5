@@ -1,1 +1,29 @@
-# improved-junit-5
+# Improved JUnit 5
+
+This project contains a test framework that improves on JUnit 5's default functionality.
+
+## Requirements
+
+### Mocking
+
+- The framework must be able to automatically mock away everything in the system under test.
+- Variables in the class to be tested can be excluded or included to the automatic mocking.
+- The automatic mocking must also work for static variables and classes.
+
+### Auto print
+
+- The framework must have auto prints which add display names and console prints based on the test function name.
+- The auto print feature must be able to be customized to exclude certain words from the function name.
+- The auto print feature must be able to be customized to add, remove or alter keywords.
+- The auto print feature must be able to be customized to change the color of the console output.
+
+### Log files
+
+- The framework must be able to write test log files to read back test executions.
+- The test log files must be able to be grouped in success, fail and error files.
+- The amount of test execution results to save must be able to be customized.
+- The tests to log must be able to be customized.
+
+### Other
+
+- The framework must be able to be installed as a Maven dependency.
