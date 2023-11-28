@@ -1,3 +1,5 @@
+![status](https://badgen.net/static/status/planned/grey/)
+
 # Improved JUnit 5
 
 This project contains a test framework that improves on JUnit 5's default functionality.
