@@ -26,6 +26,12 @@ This project contains a test framework that improves on JUnit 5's default functi
 - The amount of test execution results to save must be able to be customized.
 - The tests to log must be able to be customized.
 
+### Easy tests
+
+- The framework must have easy tests where a tester can add new tests using one line of code.
+- The easy tests must work with multiple parameters.
+- The easy tests must work for classes, records and methods.
+
 ### Other
 
 - The framework must be able to be installed as a Maven dependency.
